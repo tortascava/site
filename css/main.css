@@ -2236,10 +2236,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #fff
 }
 
-#logo {
-    padding-left: 15px
-}
-
 #nav-menu-container {
     padding-right: 15px
 }
@@ -2337,12 +2333,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .logo {
-  max-width: 200px;
+  max-width: 20%;
+}
+
+#logo a {
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
 @media (max-width: 767px) {
-    .logo {
-      max-width: 150px;
+    .header-top {
+      padding: 5px 0px;
+    }
+    .main-menu {
+      padding-bottom: 5px;
+      padding-top: 5px;
     }
 }
 
